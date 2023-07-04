@@ -25,8 +25,8 @@ while True:
     else: 
         choice_name = 'Scissor'
  
-    print("YOUR choice is: ",choice_name) 
-    print("\nNow, its COMPUTER'S turn.......") 
+    print("Your choice is: ",choice_name) 
+    print("\nNow, its Computer's Turn.......") 
 
     computer_choice = random.randint(1, 3) 
 
@@ -41,7 +41,7 @@ while True:
     else: 
         computer_choicehoice_name = 'Scissor'
           
-    print("COMPUTER'S choice is: ",computer_choicehoice_name,"\n") 
+    print("Computer's choice is: ",computer_choicehoice_name,"\n") 
   
     print(choice_name," V/s ",computer_choicehoice_name) 
 
